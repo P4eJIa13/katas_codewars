@@ -33,5 +33,5 @@ function findOdd(A) {
 
 // Best Practices:
 /*
-const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
+const findOdd = (xs) => xs.reduce((a, b) => a ^ b); ?WTF?
 */
